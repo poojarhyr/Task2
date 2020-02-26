@@ -23,7 +23,7 @@ class FirstViewController: UIViewController, UITextFieldDelegate {
         textFiled = UITextField(frame: CGRect(x: 10, y: 300, width: 100, height: 40))
         textFiled.returnKeyType = .done
         textFiled.textColor = .black
-        textFiled.backgroundColor = .link
+        textFiled.backgroundColor = .blue
         textFiled.delegate = self
         view.addSubview(textFiled)
         
