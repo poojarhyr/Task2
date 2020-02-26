@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+class AppUtilty {
+    
+    static let shared = AppUtilty()
+    
+    private init() {
+        
+    }
+    
+    func getTheName() {
+        print("abc")
+    }
+}
